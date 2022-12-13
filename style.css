@@ -1,0 +1,1711 @@
+.hidden {
+  display: none !important; }
+
+@media only screen and (max-width: 28em) {
+  .br {
+    display: none; } }
+
+@media only screen and (max-width: 63.5em) {
+  .br--text {
+    display: none; } }
+
+.header-h1, .header-h2, .header-h3, .header-h4-regular {
+  font-family: "PP Neue Montreal Regular";
+  font-weight: 400;
+  color: #000000; }
+
+.header-h1 {
+  font-size: calc(1.2 * 8rem);
+  line-height: calc(1.2 * 9.6rem); }
+  @media only screen and (max-width: 140em) {
+    .header-h1 {
+      font-size: 8rem;
+      line-height: 9.6rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .header-h1 {
+      font-size: calc(0.8 * 8rem);
+      line-height: calc(0.8 * 9.6rem); } }
+  @media only screen and (max-width: 86em) {
+    .header-h1 {
+      font-size: calc(0.7 * 8rem);
+      line-height: calc(0.7 * 9.6rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .header-h1 {
+      font-size: 5.6rem;
+      line-height: 6.4rem; } }
+  @media only screen and (max-width: 40em) {
+    .header-h1 {
+      font-size: 4rem;
+      line-height: 4.6rem; } }
+
+.header-h2 {
+  font-size: 5.6rem;
+  line-height: 7.2rem; }
+
+.header-h3 {
+  font-size: 4rem;
+  line-height: 4.8rem; }
+
+.header-h4-medium {
+  font-family: "PP Neue Montreal Medium";
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem; }
+
+.header-h4-regular {
+  font-size: calc(1.2 * 3.2rem);
+  line-height: calc(1.2 * 4rem); }
+  @media only screen and (max-width: 140em) {
+    .header-h4-regular {
+      font-size: 3.2rem;
+      line-height: 4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .header-h4-regular {
+      font-size: calc(0.8 * 3.2rem);
+      line-height: calc(0.8 * 4rem); } }
+  @media only screen and (max-width: 86em) {
+    .header-h4-regular {
+      font-size: calc(0.7 * 3.2rem);
+      line-height: calc(0.7 * 4rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .header-h4-regular {
+      font-size: 2.4rem;
+      line-height: 3rem; } }
+  @media only screen and (max-width: 40em) {
+    .header-h4-regular {
+      font-size: 2rem;
+      line-height: 2.5rem; } }
+
+.primary-1, .primary-2-medium, .primary-2-regular, .secondary-1, .secondary-2, .buttons, .content__text__description__button, .number-1, .number-2, .number-3, .number-4 {
+  font-family: "PP Neue Montreal Regular";
+  font-weight: 400;
+  color: #000000; }
+
+.primary-1 {
+  font-size: calc(1.2 * 2.4rem);
+  line-height: calc(1.2 * 3.2rem); }
+  @media only screen and (max-width: 140em) {
+    .primary-1 {
+      font-size: 2.4rem;
+      line-height: 3.2rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .primary-1 {
+      font-size: calc(0.8 * 2.4rem);
+      line-height: calc(0.8 * 3.2rem); } }
+  @media only screen and (max-width: 86em) {
+    .primary-1 {
+      font-size: calc(0.7 * 2.4rem);
+      line-height: calc(0.7 * 3.2rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .primary-1 {
+      font-size: 1.6rem; } }
+  @media only screen and (max-width: 40em) {
+    .primary-1 {
+      font-size: 1.6rem; } }
+
+.primary-2-medium {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.8rem; }
+
+.primary-2-regular {
+  font-size: calc(1.2 * 2rem);
+  line-height: calc(1.2 * 2.8rem); }
+  @media only screen and (max-width: 140em) {
+    .primary-2-regular {
+      font-size: 2rem;
+      line-height: 2.8rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .primary-2-regular {
+      font-size: calc(0.8 * 2rem);
+      line-height: calc(0.8 * 2.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .primary-2-regular {
+      font-size: calc(0.7 * 2rem);
+      line-height: calc(0.7 * 2.8rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .primary-2-regular {
+      font-size: 1.6rem;
+      line-height: 2rem; } }
+  @media only screen and (max-width: 40em) {
+    .primary-2-regular {
+      font-size: 1.4rem;
+      line-height: 2rem; } }
+
+.secondary-1 {
+  font-size: calc(1.2 * 1.6rem);
+  line-height: calc(1.2 * 2rem); }
+  @media only screen and (max-width: 140em) {
+    .secondary-1 {
+      font-size: 1.6rem;
+      line-height: 2rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .secondary-1 {
+      font-size: calc(0.8 * 1.6rem);
+      line-height: calc(0.8 * 2rem); } }
+  @media only screen and (max-width: 86em) {
+    .secondary-1 {
+      font-size: calc(0.7 * 1.6rem);
+      line-height: calc(0.7 * 2rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .secondary-1 {
+      font-size: 1.2rem; } }
+  @media only screen and (max-width: 40em) {
+    .secondary-1 {
+      font-size: 1.2rem; } }
+
+.secondary-2 {
+  font-size: 1.4rem;
+  line-height: 1.8rem; }
+
+.buttons, .content__text__description__button {
+  text-decoration: none;
+  font-size: calc(1.2 * 2rem); }
+  @media only screen and (max-width: 140em) {
+    .buttons, .content__text__description__button {
+      font-size: 2rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .buttons, .content__text__description__button {
+      font-size: calc(0.8 * 2rem); } }
+  @media only screen and (max-width: 86em) {
+    .buttons, .content__text__description__button {
+      font-size: calc(0.7 * 2rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .buttons, .content__text__description__button {
+      font-size: 1.6rem; } }
+  @media only screen and (max-width: 40em) {
+    .buttons, .content__text__description__button {
+      font-size: 1.6rem; } }
+
+.number-1 {
+  font-size: 9.6rem;
+  line-height: 9.6rem; }
+
+.number-2 {
+  font-size: 8rem;
+  line-height: 8rem; }
+
+.number-3 {
+  font-size: 7.2rem;
+  line-height: 7.2rem; }
+
+.number-4 {
+  font-size: 4rem;
+  line-height: 4rem; }
+
+.buttons {
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  width: auto;
+  height: calc(1.2 * 5.8rem);
+  padding: calc(1.2 * 1.6rem) calc(1.2 * 4rem);
+  border-radius: calc(1.2 * 0.8rem); }
+  @media only screen and (max-width: 140em) {
+    .buttons {
+      border-radius: 0.8rem;
+      height: 5.8rem;
+      padding: 1.6rem 4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .buttons {
+      height: calc(0.8 * 5.8rem);
+      padding: calc(0.8 * 1.6rem) calc(0.8 * 4rem);
+      border-radius: calc(0.8 * 0.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .buttons {
+      height: calc(0.7 * 5.8rem);
+      padding: calc(0.7 * 1.6rem) calc(0.7 * 4rem);
+      border-radius: calc(0.7 * 0.8rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .buttons {
+      height: 4.8rem;
+      padding: 0 2.4rem; } }
+  @media only screen and (max-width: 40em) {
+    .buttons {
+      height: 4.8rem;
+      padding: 0 2.4rem; } }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+* {
+  position: relative; }
+
+html,
+body {
+  height: 100%;
+  /* Fallback for browsers that do not support Custom Properties */ }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "pp_neue_montrealregular"; }
+
+@font-face {
+  font-family: "PP Neue Montreal Regular";
+  src: url("/fonts/ppneuemontreal-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "PP Neue Montreal Medium";
+  src: url("/fonts/ppneuemontreal-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+.c-ora-1 {
+  background-color: #e96521;
+  grid-area: c-ora-1; }
+
+.c-ora-2 {
+  background-color: #e96521;
+  grid-area: c-ora-2; }
+
+.c-yel-1 {
+  background-color: #f9ab0f;
+  grid-area: c-yel-1; }
+
+.c-yel-2 {
+  background-color: #f9ab0f;
+  grid-area: c-yel-2; }
+
+.c-tur-1 {
+  background-color: #64c0b1;
+  grid-area: c-tur-1; }
+
+.c-tur-2 {
+  background-color: #64c0b1;
+  grid-area: c-tur-2; }
+
+.c-gre-1 {
+  background-color: #91c447;
+  grid-area: c-gre-1; }
+
+.c-gre-2 {
+  background-color: #91c447;
+  grid-area: c-gre-2; }
+
+.c-blu-1 {
+  background-color: #25b5d2;
+  grid-area: c-blu-1; }
+
+.c-blu-2 {
+  background-color: #25b5d2;
+  grid-area: c-blu-2; }
+
+.c-bla-1 {
+  background-color: #000000;
+  grid-area: c-bla-1; }
+
+.c-bla-2 {
+  background-color: #000000;
+  grid-area: c-bla-2; }
+
+.c-gra-1 {
+  background-color: #868579;
+  grid-area: c-gra-1; }
+
+.c-gra-2 {
+  background-color: #868579;
+  grid-area: c-gra-2; }
+
+.d-ora-1 {
+  background-color: #f2a37a;
+  grid-area: d-ora-1; }
+
+.d-ora-2 {
+  background-color: #f2a37a;
+  grid-area: d-ora-2; }
+
+.d-yel-1 {
+  background-color: #fbcd6f;
+  grid-area: d-yel-1; }
+
+.d-yel-2 {
+  background-color: #fbcd6f;
+  grid-area: d-yel-2; }
+
+.d-tur-1 {
+  background-color: #a2d9d0;
+  grid-area: d-tur-1; }
+
+.d-tur-2 {
+  background-color: #a2d9d0;
+  grid-area: d-tur-2; }
+
+.d-gre-1 {
+  background-color: #bddc91;
+  grid-area: d-gre-1; }
+
+.d-gre-2 {
+  background-color: #bddc91;
+  grid-area: d-gre-2; }
+
+.d-blu-1 {
+  background-color: #7cd3e4;
+  grid-area: d-blu-1; }
+
+.d-blu-2 {
+  background-color: #7cd3e4;
+  grid-area: d-blu-2; }
+
+.d-gra-1 {
+  background-color: #c7c6c0;
+  grid-area: d-gra-1; }
+
+.d-gra-2 {
+  background-color: #c7c6c0;
+  grid-area: d-gra-2; }
+
+.l-ora-1 {
+  background-color: #f8d1bc;
+  grid-area: l-ora-1; }
+
+.l-ora-2 {
+  background-color: #f8d1bc;
+  grid-area: l-ora-2; }
+
+.l-yel-1 {
+  background-color: #fde6b7;
+  grid-area: l-yel-1; }
+
+.l-yel-2 {
+  background-color: #fde6b7;
+  grid-area: l-yel-2; }
+
+.l-tur-1 {
+  background-color: #d1ece8;
+  grid-area: l-tur-1; }
+
+.l-tur-2 {
+  background-color: #d1ece8;
+  grid-area: l-tur-2; }
+
+.l-gre-1 {
+  background-color: #deedc8;
+  grid-area: l-gre-1; }
+
+.l-gre-2 {
+  background-color: #deedc8;
+  grid-area: l-gre-2; }
+
+.l-blu-1 {
+  background-color: #bee9f1;
+  grid-area: l-blu-1; }
+
+.l-blu-2 {
+  background-color: #bee9f1;
+  grid-area: l-blu-2; }
+
+.l-gra-1 {
+  background-color: #ddddd9;
+  grid-area: l-gra-1; }
+
+.l-gra-2 {
+  background-color: #ddddd9;
+  grid-area: l-gra-2; }
+
+.mateuszm {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136b669a43e61e74eb8d_mateuszm%400.5.png");
+  min-height: 100%;
+  background-color: #f9ab0f;
+  grid-area: pers-mm; }
+
+.kubas {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136ad6b1a304cdf26453_kubas%400.25.png");
+  background-color: #64c0b1;
+  grid-area: pers-ks; }
+
+.kasiac {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136b21530f5251c40404_kasiac%400.25.png");
+  background-color: #64c0b1;
+  grid-area: pers-kc; }
+
+.tomaszm {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136bfe81aabc48246844_tomaszm%400.5.png");
+  background-color: #25b5d2;
+  grid-area: pers-tm; }
+
+.szymonr {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136b8774f6c94f53f860_szymonr%400.25.png");
+  background-color: #25b5d2;
+  grid-area: pers-sr; }
+
+.content__ge {
+  display: flex;
+  justify-content: space-between;
+  grid-area: content; }
+  @media only screen and (max-width: 63.5em) {
+    .content__ge {
+      flex-direction: column;
+      justify-content: flex-start; } }
+
+.icon-arr-right {
+  display: inline-block;
+  padding: 0.2rem;
+  width: calc(1.2 * 1.6rem);
+  height: calc(1.2 * 1.6rem);
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/63933a6bbf66960edfb44048_arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  @media only screen and (max-width: 112.5em) {
+    .icon-arr-right {
+      width: 1.6rem;
+      height: 1.6rem; } }
+  @media only screen and (max-width: 86em) {
+    .icon-arr-right {
+      width: calc(0.7 * 1.6rem);
+      height: calc(0.7 * 1.6rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .icon-arr-right {
+      width: 1.2rem;
+      height: 1.2rem; } }
+  @media only screen and (max-width: 40em) {
+    .icon-arr-right {
+      width: 1.2rem;
+      height: 1.2rem; } }
+
+.content__left {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  gap: 3.6rem;
+  min-height: calc(1.2 * 86rem);
+  max-height: calc(1.2 * 112rem);
+  padding: calc(1.2 * 12rem) calc(1.2 * 6rem) calc(1.2 * 12rem) calc(1.2 * 12rem); }
+  @media only screen and (max-width: 140em) {
+    .content__left {
+      padding: 12rem 6rem 12rem 12rem;
+      min-height: 86rem;
+      max-height: 112rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__left {
+      min-height: calc(0.8 * 86rem);
+      max-height: calc(0.8 * 112rem);
+      padding: calc(0.8 * 12rem) calc(0.8 * 6rem) calc(0.8 * 12rem) calc(0.8 * 12rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__left {
+      min-height: calc(0.7 * 86rem);
+      max-height: calc(0.7 * 112rem);
+      padding: calc(0.7 * 12rem) 2rem calc(0.7 * 12rem) calc(0.7 * 12rem); } }
+  @media only screen and (max-width: 78rem) {
+    .content__left {
+      min-height: calc(0.7 * 86rem);
+      max-height: calc(0.7 * 112rem);
+      padding: 4.8rem 0 4.8rem 4.8rem; } }
+  @media only screen and (max-width: 63.5em) {
+    .content__left {
+      height: auto;
+      min-height: 0;
+      max-height: none;
+      padding: 4.8rem 0 4.8rem 4.8rem;
+      justify-content: flex-start;
+      gap: 3.6rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__left {
+      height: auto;
+      min-height: 0;
+      max-height: none;
+      width: 100%;
+      padding: 2.4rem 2.4rem 4.8rem 2.4rem;
+      justify-content: flex-start;
+      gap: 2.4rem; } }
+
+.content__right {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(1.2 * 86rem);
+  max-height: calc(1.2 * 112rem);
+  padding-bottom: calc(1.2 * 12rem);
+  width: calc(1.2 * 72rem);
+  justify-content: space-between; }
+  @media only screen and (max-width: 140em) {
+    .content__right {
+      width: 72rem;
+      min-height: 86rem;
+      max-height: 112rem;
+      padding-bottom: 12rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right {
+      width: calc(0.8 * 72rem);
+      min-height: calc(0.8 * 86rem);
+      max-height: calc(0.8 * 112rem);
+      padding-bottom: calc(0.8 * 12rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right {
+      width: calc(0.7 * 72rem);
+      min-height: calc(0.7 * 86rem);
+      max-height: calc(0.7 * 112rem);
+      padding-bottom: calc(0.7 * 12rem); } }
+  @media only screen and (max-width: 78rem) {
+    .content__right {
+      width: 40rem;
+      min-height: calc(0.7 * 86rem);
+      max-height: calc(0.7 * 112rem);
+      padding-bottom: 6rem; } }
+  @media only screen and (max-width: 63.5em) {
+    .content__right {
+      width: 100%;
+      min-height: 0;
+      max-height: none;
+      padding-bottom: 4rem; } }
+
+.content__left__description__ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.2 * 1.6rem);
+  margin-top: calc(1.2 * 4rem);
+  margin-bottom: calc(1.2 * 8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__left__description__ul {
+      margin-top: 4rem;
+      margin-bottom: 8rem;
+      gap: 1.6rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__left__description__ul {
+      gap: calc(0.8 * 1.6rem);
+      margin-top: calc(0.8 * 4rem);
+      margin-bottom: calc(0.8 * 8rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__left__description__ul {
+      gap: calc(0.7 * 1.6rem);
+      margin-top: calc(0.7 * 4rem);
+      margin-bottom: calc(0.7 * 8rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__left__description__ul {
+      gap: 1.2rem;
+      margin-top: 2.4 rem;
+      margin-bottom: 2.4rem; } }
+
+.content__left__description__ul__li {
+  display: flex;
+  align-items: center; }
+
+.content__left__description__ul__li::before {
+  content: attr(data-value);
+  display: inline;
+  text-align: center;
+  margin-right: 0.8rem;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #91c447;
+  margin-right: calc(1.2 * 0.8rem);
+  width: calc(1.2 * 2.4rem);
+  height: calc(1.2 * 2.4rem);
+  font-family: "PP Neue Montreal Regular";
+  font-weight: 400;
+  font-size: calc(1.2 * 1.4rem);
+  line-height: calc(1.2 * 2.5rem); }
+  @media only screen and (max-width: 140em) {
+    .content__left__description__ul__li::before {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+      margin-right: 0.8rem;
+      width: 2.4rem;
+      height: 2.4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__left__description__ul__li::before {
+      font-size: calc(0.8 * 1.4rem);
+      line-height: calc(0.8 * 2.5rem);
+      margin-right: calc(0.8 * 0.8rem);
+      width: calc(0.8 * 2.4rem);
+      height: calc(0.8 * 2.4rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__left__description__ul__li::before {
+      font-size: calc(0.7 * 1.4rem);
+      line-height: calc(0.7 * 2.5rem);
+      margin-right: calc(0.7 * 0.8rem);
+      width: calc(0.7 * 2.4rem);
+      height: calc(0.7 * 2.4rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__left__description__ul__li::before {
+      margin-right: 0.6rem; } }
+
+.content__right__information__close {
+  display: flex;
+  justify-content: right;
+  margin-bottom: calc(1.2 * 12rem);
+  padding-top: calc(1.2 * 4.8rem);
+  padding-right: calc(1.2 * 4.8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__information__close {
+      margin-bottom: 12rem;
+      padding-top: calc(4.8rem);
+      padding-right: calc(4.8rem); } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__information__close {
+      margin-bottom: calc(0.8 * 12rem);
+      padding-top: calc(0.8 * 4.8rem);
+      padding-right: calc(0.8 * 4.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__information__close {
+      margin-bottom: calc(0.7 * 12rem);
+      padding-top: calc(0.7 * 4.8rem);
+      padding-right: calc(0.7 * 4.8rem); } }
+
+.content__right__information__close__btn {
+  width: calc(1.2 * 6.4rem);
+  height: calc(1.2 * 6.4rem);
+  border-radius: 50%;
+  border: 0.1rem solid #ddddd9;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.25s ease-out, transform 0.25s ease-out; }
+  @media only screen and (max-width: 140em) {
+    .content__right__information__close__btn {
+      width: 6.4rem;
+      height: 6.4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__information__close__btn {
+      width: calc(0.8 * 6.4rem);
+      height: calc(0.8 * 6.4rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__information__close__btn {
+      width: calc(0.7 * 6.4rem);
+      height: calc(0.7 * 6.4rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__right__information__close__btn {
+      display: none; } }
+  .content__right__information__close__btn:hover {
+    background-color: #ddddd9;
+    cursor: pointer;
+    transform: scale(103%); }
+
+.content__right__contact__person__information {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.2 * 2.4rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person__information {
+      gap: 2.4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person__information {
+      gap: calc(0.8 * 2.4rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person__information {
+      gap: calc(0.7 * 2.4rem); } }
+
+@media only screen and (max-width: 63.5em) {
+  .content__right__information__p {
+    max-width: 36rem; } }
+
+.button-close {
+  width: calc(1.2 * 2.4rem);
+  height: calc(1.2 * 2.4rem);
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/63933ada1b8f227f0cb1bde3_button-x.svg");
+  background-size: cover; }
+  @media only screen and (max-width: 140em) {
+    .button-close {
+      width: 2.4rem;
+      height: 2.4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .button-close {
+      width: calc(0.8 * 2.4rem);
+      height: calc(0.8 * 2.4rem); } }
+  @media only screen and (max-width: 86em) {
+    .button-close {
+      width: calc(0.7 * 2.4rem);
+      height: calc(0.7 * 2.4rem); } }
+
+.icon-arr-corner-down {
+  margin-right: 0.8rem;
+  display: inline-block;
+  padding: 0.2rem;
+  width: calc(1.2 * 1.6rem);
+  height: calc(1.2 * 1.6rem);
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/63933bcfbf66967726b45312_arrow-corner-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media only screen and (max-width: 140em) {
+    .icon-arr-corner-down {
+      width: 1.6rem;
+      height: 1.6rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .icon-arr-corner-down {
+      width: calc(0.8 * 1.6rem);
+      height: calc(0.8 * 1.6rem); } }
+  @media only screen and (max-width: 86em) {
+    .icon-arr-corner-down {
+      width: calc(0.7 * 1.6rem);
+      height: calc(0.7 * 1.6rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .icon-arr-corner-down {
+      width: 1.2rem;
+      height: 1.2rem; } }
+  @media only screen and (max-width: 40em) {
+    .icon-arr-corner-down {
+      width: 1.2rem;
+      height: 1.2rem; } }
+
+.content__right__information__links {
+  display: flex;
+  flex-direction: column; }
+
+.content__right__information__links__a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #25b5d2;
+  width: max-content;
+  padding-right: calc(1.2 * 0.4rem); }
+  @media only screen and (max-width: 63.5em) {
+    .content__right__information__links__a {
+      width: auto; } }
+  .content__right__information__links__a:last-child {
+    margin-top: calc(1.2 * 0.8rem); }
+    @media only screen and (max-width: 140em) {
+      .content__right__information__links__a:last-child {
+        margin-top: 0.8rem; } }
+    @media only screen and (max-width: 112.5em) {
+      .content__right__information__links__a:last-child {
+        margin-top: calc(0.8 * 0.8rem); } }
+    @media only screen and (max-width: 86em) {
+      .content__right__information__links__a:last-child {
+        margin-top: calc(0.7 * 0.8rem); } }
+  .content__right__information__links__a:hover::after {
+    border-bottom: 0.1rem solid #25b5d2;
+    filter: blur(0rem); }
+
+.content__right__information__links__a::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-bottom: 0.2rem solid rgba(37, 181, 210, 0);
+  filter: blur(0.4rem);
+  transition: 0.25s border-bottom ease-out, 0.25s filter ease-out; }
+  @media only screen and (max-width: 40em) {
+    .content__right__information__links__a::after {
+      display: none; } }
+
+.content__right__contact {
+  display: flex;
+  flex-direction: column;
+  gap: calc(140em * 4.8rem);
+  padding-left: calc(1.2 * 12rem);
+  padding-right: calc(1.2 * 12rem);
+  gap: calc(1.2 * 4.8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact {
+      gap: 4.8rem;
+      padding-left: 12rem;
+      padding-right: 12rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact {
+      gap: calc(0.8 * 4.8rem);
+      padding-left: calc(0.8 * 12rem);
+      padding-right: calc(0.8 * 12rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact {
+      gap: calc(0.7 * 4.8rem);
+      padding-left: calc(0.7 * 12rem);
+      padding-right: calc(0.7 * 12rem); } }
+  @media only screen and (max-width: 78rem) {
+    .content__right__contact {
+      padding: 4.8rem 4.8rem 0 4.8rem; } }
+  @media only screen and (max-width: 63.5em) {
+    .content__right__contact {
+      padding: 4.8rem 4.8rem 0 4.8rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__right__contact {
+      padding: 2.4rem 2.4rem 0 2.4rem; } }
+
+.content__right__information__top {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.2 * 4.8rem);
+  width: clac(1.2 * 48rem);
+  padding: calc(1.2 * 12rem) calc(1.2 * 12rem) 0 calc(1.2 * 12rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__information__top {
+      gap: 4.8rem;
+      padding: 12rem 12rem 0 12rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__information__top {
+      gap: calc(0.8 * 4.8rem);
+      padding: calc(0.8 * 12rem) calc(0.8 * 12rem) 0 calc(0.8 * 12rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__information__top {
+      gap: calc(0.7 * 4.8rem);
+      padding: calc(0.7 * 12rem) calc(0.7 * 12rem) 0 calc(0.7 * 12rem); } }
+  @media only screen and (max-width: 78rem) {
+    .content__right__information__top {
+      gap: calc(0.6 * 4.8rem);
+      padding: 4.8rem 4.8rem 0 4.8rem; } }
+  @media only screen and (max-width: 63.5em) {
+    .content__right__information__top {
+      gap: calc(0.6 * 4.8rem);
+      padding: 4.8rem 4.8rem 0 4.8rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__right__information__top {
+      padding: 2.4rem 2.4rem 0 2.4rem; } }
+
+.content__right__information__close__button {
+  display: flex; }
+
+.content__right__contact__person__information__role {
+  color: #868579; }
+
+.content__right__contact__person__image--kasiac {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136ab390d47212619d1e_contact_kasia_c.png");
+  background-color: #25b5d2;
+  background-size: cover;
+  border-radius: 100%;
+  width: calc(1.2 * 12rem);
+  height: calc(1.2 * 12rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person__image--kasiac {
+      width: 12rem;
+      height: 12rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person__image--kasiac {
+      width: calc(0.8 * 12rem);
+      height: calc(0.8 * 12rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person__image--kasiac {
+      width: 6.4rem;
+      height: 6.4rem; } }
+  @media only screen and (max-width: 26rem) {
+    .content__right__contact__person__image--kasiac {
+      width: 6rem;
+      height: 6rem; } }
+
+.content__right__contact__person__information__contact {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.2 * 1rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person__information__contact {
+      gap: 1rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person__information__contact {
+      gap: calc(0.8 * 1rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person__information__contact {
+      gap: calc(0.7 * 1rem); } }
+
+.content__right__contact__person__information__contact {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.2 * 0.8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person__information__contact {
+      gap: 0.8rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person__information__contact {
+      gap: calc(0.8 * 0.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person__information__contact {
+      gap: calc(0.7 * 0.8rem); } }
+
+.content__right__contact__person {
+  display: flex;
+  gap: calc(1.2 * 4.8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person {
+      gap: 4.8rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person {
+      gap: calc(0.8 * 4.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person {
+      gap: calc(0.7 * 4.8rem); } }
+
+.content__right__contact__person__information__data {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.2 * 0.8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person__information__data {
+      gap: 0.8rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person__information__data {
+      gap: calc(0.8 * 0.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person__information__data {
+      gap: calc(0.7 * 0.8rem); } }
+
+.content__right__contact__person__information__contact__email {
+  display: flex;
+  align-items: center; }
+
+.content__right__contact__person__information__contact__number {
+  align-items: center;
+  display: flex; }
+
+.content__right__contact__person__information__contact__email__i {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto calc(1.2 * 1.6rem);
+  width: calc(1.2 * 3.2rem);
+  height: calc(1.2 * 3.2rem);
+  border-radius: 50%;
+  margin-right: calc(1.2 * 1.6rem); }
+  @media only screen and (max-width: 140em) {
+    .content__right__contact__person__information__contact__email__i {
+      background-size: auto 1.6rem;
+      width: 3.2rem;
+      height: 3.2rem;
+      margin-right: 1.6rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__right__contact__person__information__contact__email__i {
+      background-size: auto calc(0.8 * 1.6rem);
+      width: calc(0.8 * 3.2rem);
+      height: calc(0.8 * 3.2rem);
+      margin-right: calc(0.8 * 1.6rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__right__contact__person__information__contact__email__i {
+      background-size: auto calc(0.7 * 1.6rem);
+      width: calc(0.7 * 3.2rem);
+      height: calc(0.7 * 3.2rem);
+      margin-right: calc(0.7 * 1.6rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__right__contact__person__information__contact__email__i {
+      margin-right: 1.2rem; } }
+
+.email-tur {
+  background-color: #d1ece8;
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/63933b346d8df40f999d6184_email_tur.svg"); }
+
+.phone-gre {
+  background-color: #deedc8;
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/63933b34d20261cf862a60bb_phone_gre.svg"); }
+
+.line {
+  position: fixed;
+  width: 0.1rem;
+  background-color: #ddddd9;
+  height: 100%;
+  top: 0; }
+  @media only screen and (max-width: 63.5em) {
+    .line {
+      height: 0.1rem;
+      width: 100%;
+      position: static; } }
+
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto;
+  grid-template-areas: "nav" "content"; }
+
+p {
+  margin-bottom: 0; }
+
+ul,
+ol {
+  padding-left: 0; }
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 10;
+  display: none;
+  animation: ease-in; }
+
+.mask.visible {
+  display: block; }
+
+.navigation {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  padding: calc(1.2 * 4.8rem) calc(1.2 * 4.8rem) 0 calc(1.2 * 4.8rem); }
+  @media only screen and (max-width: 140em) {
+    .navigation {
+      padding: 4.8rem 4.8rem 0 4.8rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .navigation {
+      padding: calc(0.8 * 4.8rem) calc(0.8 * 4.8rem) 0 calc(0.8 * 4.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .navigation {
+      padding: calc(0.7 * 4.8rem) calc(0.7 * 4.8rem) 0 calc(0.7 * 4.8rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .navigation {
+      padding: 3.6rem 0 0 3.6rem; } }
+  @media only screen and (max-width: 40em) {
+    .navigation {
+      padding: 2.4rem 0 0 2.4rem; } }
+
+.navigation__logo--a {
+  display: flex;
+  height: calc(1.2 * 6.4rem); }
+  @media only screen and (max-width: 140em) {
+    .navigation__logo--a {
+      height: 6.4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .navigation__logo--a {
+      height: calc(0.8 * 6.4rem); } }
+  @media only screen and (max-width: 86em) {
+    .navigation__logo--a {
+      height: calc(0.7 * 6.4rem); } }
+
+.navigation__logo--img {
+  display: block;
+  height: 100%; }
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  grid-area: content; }
+  @media only screen and (max-width: 63.5em) {
+    .content {
+      flex-direction: column;
+      max-height: 160rem; } }
+  @media only screen and (max-width: 40em) {
+    .content {
+      max-height: 120rem; } }
+
+.content__text {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  min-height: calc(1.2 * 86rem);
+  max-height: calc(1.2 * 112rem);
+  padding: calc(1.2 * 12rem) 0 calc(1.2 * 12rem) calc(1.2 * 12rem); }
+  @media only screen and (max-width: 140em) {
+    .content__text {
+      padding: 12rem 0 12rem 12rem;
+      min-height: 86rem;
+      max-height: 112rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__text {
+      min-height: calc(0.8 * 86rem);
+      max-height: calc(0.8 * 112rem);
+      padding: calc(0.8 * 12rem) 0 calc(0.8 * 12rem) calc(0.8 * 12rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__text {
+      min-height: calc(0.7 * 86rem);
+      max-height: calc(0.7 * 112rem);
+      padding: calc(0.7 * 12rem) 0 calc(0.7 * 12rem) calc(0.7 * 12rem); } }
+  @media only screen and (max-width: 78rem) {
+    .content__text {
+      min-height: calc(0.7 * 86rem);
+      max-height: calc(0.7 * 112rem);
+      padding: 4.8rem 0 4.8rem 4.8rem; } }
+  @media only screen and (max-width: 63.5em) {
+    .content__text {
+      height: auto;
+      min-height: 0;
+      max-height: none;
+      padding: 4.8rem 0 4.8rem 4.8rem;
+      justify-content: flex-start;
+      gap: 3.6rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__text {
+      height: auto;
+      min-height: 0;
+      max-height: none;
+      padding: 2.4rem 2.4rem 2.4rem 2.4rem;
+      justify-content: flex-start;
+      gap: 2.4rem; } }
+
+.content__images {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  max-height: calc(1.2 * 112rem);
+  padding: 0 0 calc(1.2 * 12rem) 0; }
+  @media only screen and (max-width: 140em) {
+    .content__images {
+      max-height: 112rem;
+      padding: 0 0 12rem 0; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__images {
+      max-height: calc(0.8 * 112rem);
+      padding: 0 0 calc(0.8 * 12rem) 0; } }
+  @media only screen and (max-width: 86em) {
+    .content__images {
+      max-height: calc(0.7 * 112rem);
+      padding: 0 0 calc(0.7 * 12rem) 0; } }
+  @media only screen and (max-width: 63.5em) {
+    .content__images {
+      height: auto;
+      max-height: none;
+      min-height: 0;
+      padding: 0; } }
+
+.content__text__description {
+  display: flex;
+  flex-direction: column;
+  gap: 7.2rem;
+  gap: calc(1.2* 7.2rem); }
+  @media only screen and (max-width: 140em) {
+    .content__text__description {
+      gap: 7.2rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__text__description {
+      gap: calc(0.8* 7.2rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__text__description {
+      gap: calc(0.7* 7.2rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__text__description {
+      gap: 3.6rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__text__description {
+      gap: 2.4rem; } }
+
+.content__text__slogan {
+  width: calc(1.2 * 82rem); }
+  @media only screen and (max-width: 140em) {
+    .content__text__slogan {
+      width: 82rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__text__slogan {
+      width: calc(0.8 * 82rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__text__slogan {
+      width: calc(0.7 * 82rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__text__slogan {
+      width: auto;
+      max-width: 72rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__text__slogan {
+      width: auto;
+      max-width: 60rem; } }
+
+.content__text__description__p {
+  width: calc(1.2 * 76rem); }
+  @media only screen and (max-width: 140em) {
+    .content__text__description__p {
+      width: 76rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__text__description__p {
+      width: calc(0.8 * 76rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__text__description__p {
+      width: calc(0.7 * 76rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__text__description__p {
+      width: auto;
+      max-width: 54rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__text__description__p {
+      width: auto;
+      max-width: 46rem; } }
+
+.content__text__description__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem; }
+
+.content__text__description__button {
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  width: auto;
+  height: calc(1.2 * 5.8rem);
+  padding: calc(1.2 * 1.6rem) calc(1.2 * 4rem);
+  border-radius: calc(1.2 * 0.8rem); }
+  @media only screen and (max-width: 140em) {
+    .content__text__description__button {
+      border-radius: 0.8rem;
+      height: 5.8rem;
+      padding: 1.6rem 4rem; } }
+  @media only screen and (max-width: 112.5em) {
+    .content__text__description__button {
+      height: calc(0.8 * 5.8rem);
+      padding: calc(0.8 * 1.6rem) calc(0.8 * 4rem);
+      border-radius: calc(0.8 * 0.8rem); } }
+  @media only screen and (max-width: 86em) {
+    .content__text__description__button {
+      height: calc(0.7 * 5.8rem);
+      padding: calc(0.7 * 1.6rem) calc(0.7 * 4rem);
+      border-radius: calc(0.7 * 0.8rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .content__text__description__button {
+      height: 4.8rem;
+      padding: 0 2.4rem; } }
+  @media only screen and (max-width: 40em) {
+    .content__text__description__button {
+      height: 4.8rem;
+      padding: 0 2.4rem; } }
+
+.content__images__grid {
+  height: auto;
+  display: grid;
+  aspect-ratio: 10 / 7;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-areas: "....... d-yel-1 c-yel-1 ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... ....... ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... c-blu-1 ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... l-blu-1 ....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... ....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-gre-1 c-gre-1 ....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... d-gre-1 ....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; }
+  @media only screen and (max-width: 178em) and (min-width: 140em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 9 / 7;
+      grid-template-columns: repeat(9, 1fr);
+      grid-template-areas: "....... d-yel-1 ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-gre-1 ....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "d-gre-1 ....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 168em) and (min-width: 140em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 8 / 7;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-areas: "d-yel-1  ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 158em) and (min-width: 140em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 7;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... pers-mm pers-mm pers-mm ....... ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 148em) and (min-width: 140em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 7;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2" "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... ....... pers-mm pers-mm pers-mm ......." "....... ....... pers-mm pers-mm pers-mm ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm" "l-tur-1 ....... ....... ....... pers-tm pers-tm" "....... ....... d-blu-1 pers-sr ....... ......."; } }
+  @media only screen and (max-width: 140em) and (min-width: 112.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 9 / 7;
+      grid-template-columns: repeat(9, 1fr);
+      grid-template-areas: "....... d-yel-1 ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-gre-1 ....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "d-gre-1 ....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 140em) and (min-width: 112.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 8 / 7;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-areas: "d-yel-1  ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 131em) and (min-width: 112.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 7;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... pers-mm pers-mm pers-mm ....... ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 122em) and (min-width: 112.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 7;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2" "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... ....... pers-mm pers-mm pers-mm ......." "....... ....... pers-mm pers-mm pers-mm ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm" "l-tur-1 ....... ....... ....... pers-tm pers-tm" "....... ....... d-blu-1 pers-sr ....... ......."; } }
+  @media only screen and (max-width: 112.5em) and (min-width: 86em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 8 / 7;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-areas: "d-yel-1 ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 105em) and (min-width: 86em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 7;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... pers-mm pers-mm pers-mm ....... ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 98em) and (min-width: 86em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 7;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2" "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... ....... pers-mm pers-mm pers-mm ......." "....... ....... pers-mm pers-mm pers-mm ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm" "l-tur-1 ....... ....... ....... pers-tm pers-tm" "....... ....... d-blu-1 pers-sr ....... ......."; } }
+  @media only screen and (max-width: 91em) and (min-width: 86em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 5 / 7;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "d-ora-1 ....... ....... c-blu-2 d-blu-2" "c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... pers-mm pers-mm pers-mm ......." "....... pers-mm pers-mm pers-mm ......." "....... pers-ks ....... pers-tm pers-tm" "d-tur-1 ....... ....... pers-tm pers-tm" "....... d-blu-1 pers-sr ....... ......."; } }
+  @media only screen and (max-width: 86em) and (min-width: 63.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 7;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... pers-mm pers-mm pers-mm ....... ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
+  @media only screen and (max-width: 85em) and (min-width: 63.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 7;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2" "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... ....... pers-mm pers-mm pers-mm ......." "....... ....... pers-mm pers-mm pers-mm ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm" "l-tur-1 ....... ....... ....... pers-tm pers-tm" "....... ....... d-blu-1 pers-sr ....... ......."; } }
+  @media only screen and (max-width: 79em) and (min-width: 63.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 5 / 7;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "d-ora-1 ....... ....... c-blu-2 d-blu-2" "c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... pers-mm pers-mm pers-mm ......." "....... pers-mm pers-mm pers-mm ......." "....... pers-ks ....... pers-tm pers-tm" "d-tur-1 ....... ....... pers-tm pers-tm" "....... d-blu-1 pers-sr ....... ......."; } }
+  @media only screen and (max-width: 73em) and (min-width: 63.5em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 4 / 7;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "d-ora-1 ....... d-tur-2 pers-kc" "c-ora-1 pers-mm pers-mm pers-mm" "....... pers-mm pers-mm pers-mm" "....... pers-mm pers-mm pers-mm" "....... pers-ks pers-tm pers-tm" "d-tur-1 ....... pers-tm pers-tm" "....... l-blu-1 pers-sr d-blu-2"; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 999em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 7 / 6;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "....... ....... ....... ....... ....... l-yel-1 ......." "....... l-gre-1 ....... ....... ....... d-yel-1 c-yel-1" "c-gre-1 ....... ....... d-tur-2 ....... ....... ......." "....... ....... c-tur-2 pers-ks pers-mm pers-mm d-tur-1" "pers-sr ....... ....... ....... pers-mm pers-mm pers-kc" "d-blu-2 pers-tm l-blu-2 ....... c-ora-1 ....... ......."; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 97em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 7 / 5;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "....... l-gre-1 ....... ....... ....... l-yel-1 d-yel-1" "c-gre-1 ....... ....... d-tur-2 ....... ....... ......." "....... ....... c-tur-2 pers-ks pers-mm pers-mm d-tur-1" "pers-sr ....... ....... ....... pers-mm pers-mm pers-kc" "d-blu-2 pers-tm l-blu-2 ....... c-ora-1 ....... ......."; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 87em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 7 / 4;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "d-gre-1 c-gre-1 ....... ....... ....... ....... l-ora-1" "....... ....... ....... l-tur-2 ....... c-ora-1 ......." "pers-sr ....... ....... pers-ks pers-mm pers-mm d-tur-1" "d-blu-2 pers-tm l-blu-2 ....... pers-mm pers-mm pers-kc"; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 77em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 7 / 3;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "c-gre-1 ....... c-ora-1 ....... ....... ....... ......." "....... ....... ....... ....... l-yel-1 ....... d-tur-1" "d-blu-1 l-blu-1 ....... d-yel-1 c-yel-1 ....... c-tur-1"; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 67em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+      max-height: none;
+      aspect-ratio: 7 / 2;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-1 ....... ......."; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 57em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 1;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-gre-1 c-blu-1"; } }
+  @media only screen and (max-width: 63.5em) and (min-width: 0) and (max-height: 47em) {
+    .content__images__grid {
+      display: none; } }
+  @media only screen and (max-width: 52em) and (min-width: 0) and (max-height: 999em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 6 / 5;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "d-gre-1 ....... ....... ....... l-yel-1 c-yel-1" "....... ....... d-tur-1 ....... ....... ......." "....... c-tur-1 pers-ks pers-mm pers-mm l-tur-2" "pers-sr ....... ....... pers-mm pers-mm pers-kc" "l-blu-1 pers-tm ....... c-ora-1 ....... ......."; } }
+  @media only screen and (max-width: 52em) and (min-width: 0) and (max-height: 80em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 6 / 4;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "....... ....... d-tur-1 ....... d-gre-1 c-gre-1" "....... c-tur-1 pers-ks ....... ....... ......." "pers-sr ....... ....... pers-mm pers-mm l-tur-2" "l-blu-1 pers-tm ....... pers-mm pers-mm pers-kc"; } }
+  @media only screen and (max-width: 52em) and (min-width: 0) and (max-height: 72em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 6 / 3;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "d-gre-1 ....... c-ora-1 ....... ....... ......." "....... ....... ....... l-yel-1 ....... d-tur-1" "d-blu-1 l-blu-1 ....... c-yel-1 ....... c-tur-1"; } }
+  @media only screen and (max-width: 52em) and (min-width: 0) and (max-height: 63em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 6 / 2;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-1 ......."; } }
+  @media only screen and (max-width: 52em) and (min-width: 0) and (max-height: 55em) {
+    .content__images__grid {
+      display: grid;
+      width: 100%;
+      height: min-content;
+      aspect-ratio: 6 / 1;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "c-ora-1 ....... c-yel-1 c-tur-1 c-gre-1 c-blu-1"; } }
+  @media only screen and (max-width: 52em) and (min-width: 0) and (max-height: 46em) {
+    .content__images__grid {
+      display: none; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 999em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 6;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "d-blu-2 l-blu-1 ....... ....... ....... l-yel-1 ......." "....... ....... ....... ....... c-yel-1 ....... ......." "....... d-tur-1 ....... ....... ....... d-yel-1  ......." "c-tur-1 pers-ks ....... l-gre-1 pers-mm pers-mm d-tur-2" "pers-sr ....... ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 62em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 5;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "....... d-blu-2 l-blu-1 ....... ....... ....... l-yel-1" "d-tur-1 ....... ....... ....... ....... d-yel-1  ......." "c-tur-1 pers-ks ....... l-gre-1 pers-mm pers-mm d-tur-2" "pers-sr ....... ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 56em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 4;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "....... l-tur-1 ....... ....... ....... ....... l-yel-1" "c-tur-1 pers-ks ....... l-gre-1 ....... d-yel-2 ......." "pers-sr ....... ....... d-gre-1 pers-mm pers-mm ......." "d-blu-1 pers-tm c-gre-1 ....... pers-mm pers-mm pers-kc"; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 50em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 3;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "c-blu-1 ....... l-yel-1 ....... c-ora-1 d-ora-1 ......." "....... ....... d-yel-1 ....... ....... ....... d-tur-1" "c-gre-1 ....... ....... c-yel-1 ....... ....... c-tur-1"; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 44em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 2;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1 ......." "c-gre-1 ....... ....... ....... c-blu-1 ....... ......."; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 39em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 7 / 1;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-gre-1 c-blu-1"; } }
+  @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 33em) {
+    .content__images__grid {
+      display: none; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 999em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 6;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "l-yel-2 ....... l-gre-2 d-gre-2 ....... ......." "d-yel-2 ....... ....... ....... ....... l-yel-1" "....... d-tur-1 ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-2" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 57em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 5;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "l-tur-1 ....... l-gre-2 d-gre-2 ....... l-yel-1" "d-tur-2 ....... ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 52em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 4;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "....... l-tur-2 ....... d-yel-1 ....... ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 47em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 3;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "c-gre-1 ....... ....... c-ora-1 l-ora-1 ......." "....... ....... d-yel-1 ....... ....... d-tur-1" "c-blu-1 ....... ....... c-yel-1 ....... c-tur-1"; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 42em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 2;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-2 ......."; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 37em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 1;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-blu-1"; } }
+  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 32em) {
+    .content__images__grid {
+      display: none; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 999em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 6;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "l-yel-2 ....... l-gre-2 d-gre-2 ....... ......." "d-yel-2 ....... ....... ....... ....... l-yel-1" "....... d-tur-1 ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-2" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 56em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 5;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "l-tur-1 ....... l-gre-2 d-gre-2 ....... l-yel-1" "d-tur-2 ....... ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 52em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 4;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "....... l-tur-2 ....... d-yel-1 ....... ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 48em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 3;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "c-gre-1 ....... ....... c-ora-1 l-ora-1 ......." "....... ....... d-yel-1 ....... ....... d-tur-1" "c-blu-1 ....... ....... c-yel-1 ....... c-tur-1"; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 44em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 2;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-2 ......."; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 39.1em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 1;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-blu-1"; } }
+  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 36em) {
+    .content__images__grid {
+      display: none; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 999em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 6;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "l-yel-2 ....... l-gre-2 d-gre-2 ....... ......." "d-yel-2 ....... ....... ....... ....... l-yel-1" "....... d-tur-1 ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-2" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 59em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 5;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "l-tur-1 ....... l-gre-2 d-gre-2 ....... l-yel-1" "d-tur-2 ....... ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 55em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 4;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "....... l-tur-2 ....... d-yel-1 ....... ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 51em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 3;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "c-gre-1 ....... ....... c-ora-1 l-ora-1 ......." "....... ....... d-yel-1 ....... ....... d-tur-1" "c-blu-1 ....... ....... c-yel-1 ....... c-tur-1"; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 47em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 2;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-2 ......."; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 43em) {
+    .content__images__grid {
+      display: grid;
+      aspect-ratio: 6 / 1;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-blu-1"; } }
+  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 39em) {
+    .content__images__grid {
+      display: none; } }
+
+.content__images__grid__el {
+  background-size: cover;
+  background-repeat: repeat; }
+  @media only screen and (max-width: 63.5em) {
+    .content__images__grid__el {
+      max-height: calc(100vw / 7); } }
+  @media only screen and (max-width: 52em) {
+    .content__images__grid__el {
+      max-height: calc(100vw / 6); } }
+  @media only screen and (max-width: 40em) {
+    .content__images__grid__el {
+      max-height: calc(100vw / 7); } }
+  @media only screen and (max-width: 30em) {
+    .content__images__grid__el {
+      max-height: calc(100vw / 6); } }
+
+.button-primary {
+  background-color: #000000;
+  color: #ffffff;
+  transition: transform 0.25s ease-out, background-color 0.25s ease-out; }
+  .button-primary:hover {
+    background-color: #e96521; }
+  .button-primary:active {
+    transform: scale(95%); }
+
+.button-secondary {
+  background-color: inherit;
+  border: 0.2rem solid #c7c6c0;
+  transition: background-color 0.25s ease-out, transform 0.25s ease-out; }
+  .button-secondary:hover {
+    background-color: #c7c6c0; }
+  .button-secondary:active {
+    transform: scale(95%); }
+
+.icon-arr-corner-up {
+  display: inline-block;
+  padding: 0.2rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393371320859f26b28e58cb_arrow-corner-up.svg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media only screen and (max-width: 112.5em) {
+    .icon-arr-corner-up {
+      width: calc(0.8 * 1.6rem);
+      height: calc(0.8 * 1.6rem); } }
+  @media only screen and (max-width: 86em) {
+    .icon-arr-corner-up {
+      width: calc(0.7 * 1.6rem);
+      height: calc(0.7 * 1.6rem); } }
+  @media only screen and (max-width: 63.5em) {
+    .icon-arr-corner-up {
+      width: 1.2rem;
+      height: 1.2rem; } }
+  @media only screen and (max-width: 40em) {
+    .icon-arr-corner-up {
+      width: 1.2rem;
+      height: 1.2rem; } }
+
+.icon-arr-corner-up-w {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393372a779ddd0b80c24b92_arrow-corner-up-w.svg"); }
+
+.container {
+  transition: opacity 0.5s; }
+
+.homepage {
+  opacity: 0; }
+
+.get-estimate {
+  opacity: 0; }
