@@ -1563,7 +1563,7 @@ ol {
     .content__images__grid {
       padding-top: calc(2 / 12 * 100%);
       background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659bf582d56750d99c4_grid-2.png"); } }
-  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 39.75em) {
+  @media only screen and (max-width: 23.75em) and (min-width: 0) and (max-height: 39.75em) {
     .content__images__grid {
       display: none; } }
 
