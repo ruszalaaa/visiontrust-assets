@@ -1547,23 +1547,23 @@ ol {
   @media only screen and (max-width: 28em) and (min-width: 0) and (max-height: 36em) {
     .content__images__grid {
       display: none; } }
-  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 999em) {
+  @media only screen and (max-width: 23.75em) and (min-width: 0) and (max-height: 999em) {
     .content__images__grid {
       background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659872f312bd1d2b760_grid-5.png");
       padding-top: calc(5 / 12 * 100%); } }
-  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 45.5em) {
+  @media only screen and (max-width: 23.75em) and (min-width: 0) and (max-height: 45.5em) {
     .content__images__grid {
       background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c76589b46bc2452f4fe87_grid-4.png");
       padding-top: calc(4 / 12 * 100%); } }
-  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 43.25em) {
+  @media only screen and (max-width: 23.75em) and (min-width: 0) and (max-height: 43.25em) {
     .content__images__grid {
       padding-top: calc(3 / 12 * 100%);
       background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7658d36618e06c56ed35_grid-3.png"); } }
-  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 41.25em) {
+  @media only screen and (max-width: 23.75em) and (min-width: 0) and (max-height: 41.25em) {
     .content__images__grid {
       padding-top: calc(2 / 12 * 100%);
       background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659bf582d56750d99c4_grid-2.png"); } }
-  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 39.15em) {
+  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 39.75em) {
     .content__images__grid {
       display: none; } }
 
