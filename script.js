@@ -7,25 +7,37 @@ window.addEventListener("load", () => {
     }
   }
 
-  $(".homepage").css("opacity", "100");
+  // Show Homepage
+  $(".homepage").css("opacity", 100);
+
   // Go to Get Estiamte subpage
   $(".goto-getestimate").on("click", function (event) {
     event.preventDefault();
-
-    // Open Get Estimate tab
     $(".get-estimate").removeClass("hidden");
     $(".homepage").addClass("hidden");
     $(".get-estimate").animate({ opacity: 100 });
-    $(".homepage").css("opacity", "0");
+    $(".homepage").css("opacity", 0);
   });
 
   // Back to Homepage
   $(".backto-homepage").on("click", function (event) {
     event.preventDefault();
-    // Open Homepage tab
-    $(".get-estimate").addClass("hidden");
-    $(".homepage").removeClass("hidden");
-    $(".get-estimate").css("opacity", "0");
-    $(".homepage").animate({ opacity: 100 });
+
+    if ($(".homepage").hasClass("hidden")) {
+      // If going back to Homepage
+
+      $(".get-estimate").addClass("hidden");
+      $(".homepage").removeClass("hidden");
+      $(".homepage").animate({ opacity: 100 });
+      $(".get-estimate").css("opacity", 0);
+    } else {
+      // If already on Homepage
+      $(".homepage").addClass("hidden");
+      $(".homepage").css("opacity", 0);
+      setTimeout(function () {
+        $(".homepage").removeClass("hidden");
+        $(".homepage").animate({ opacity: 100 });
+      });
+    }
   });
 });

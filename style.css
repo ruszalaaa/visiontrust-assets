@@ -25,10 +25,10 @@
     .header-h1 {
       font-size: calc(0.8 * 8rem);
       line-height: calc(0.8 * 9.6rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .header-h1 {
-      font-size: calc(0.7 * 8rem);
-      line-height: calc(0.7 * 9.6rem); } }
+      font-size: 5.6rem;
+      line-height: 6.4rem; } }
   @media only screen and (max-width: 63.5em) {
     .header-h1 {
       font-size: 5.6rem;
@@ -63,7 +63,7 @@
     .header-h4-regular {
       font-size: calc(0.8 * 3.2rem);
       line-height: calc(0.8 * 4rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .header-h4-regular {
       font-size: calc(0.7 * 3.2rem);
       line-height: calc(0.7 * 4rem); } }
@@ -92,7 +92,7 @@
     .primary-1 {
       font-size: calc(0.8 * 2.4rem);
       line-height: calc(0.8 * 3.2rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .primary-1 {
       font-size: calc(0.7 * 2.4rem);
       line-height: calc(0.7 * 3.2rem); } }
@@ -119,7 +119,7 @@
     .primary-2-regular {
       font-size: calc(0.8 * 2rem);
       line-height: calc(0.8 * 2.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .primary-2-regular {
       font-size: calc(0.7 * 2rem);
       line-height: calc(0.7 * 2.8rem); } }
@@ -143,7 +143,7 @@
     .secondary-1 {
       font-size: calc(0.8 * 1.6rem);
       line-height: calc(0.8 * 2rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .secondary-1 {
       font-size: calc(0.7 * 1.6rem);
       line-height: calc(0.7 * 2rem); } }
@@ -167,7 +167,7 @@
   @media only screen and (max-width: 112.5em) {
     .buttons, .content__text__description__button {
       font-size: calc(0.8 * 2rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .buttons, .content__text__description__button {
       font-size: calc(0.7 * 2rem); } }
   @media only screen and (max-width: 63.5em) {
@@ -197,7 +197,7 @@
   text-transform: capitalize;
   display: inline-flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: calc(1.2 * 1.8rem);
   width: auto;
   height: calc(1.2 * 5.8rem);
   padding: calc(1.2 * 1.6rem) calc(1.2 * 4rem);
@@ -205,14 +205,16 @@
   @media only screen and (max-width: 140em) {
     .buttons {
       border-radius: 0.8rem;
+      gap: 1.8rem;
       height: 5.8rem;
       padding: 1.6rem 4rem; } }
   @media only screen and (max-width: 112.5em) {
     .buttons {
       height: calc(0.8 * 5.8rem);
+      gap: calc(1.2 * 1.8rem);
       padding: calc(0.8 * 1.6rem) calc(0.8 * 4rem);
       border-radius: calc(0.8 * 0.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .buttons {
       height: calc(0.7 * 5.8rem);
       padding: calc(0.7 * 1.6rem) calc(0.7 * 4rem);
@@ -460,7 +462,7 @@ body {
     .icon-arr-right {
       width: 1.6rem;
       height: 1.6rem; } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .icon-arr-right {
       width: calc(0.7 * 1.6rem);
       height: calc(0.7 * 1.6rem); } }
@@ -472,6 +474,9 @@ body {
     .icon-arr-right {
       width: 1.2rem;
       height: 1.2rem; } }
+
+.icon-arr-right-black {
+  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6399ac27ea78b019ff68e22c_arrow-right_b.svg"); }
 
 .content__left {
   width: auto;
@@ -493,7 +498,7 @@ body {
       min-height: calc(0.8 * 86rem);
       max-height: calc(0.8 * 112rem);
       padding: calc(0.8 * 12rem) calc(0.8 * 6rem) calc(0.8 * 12rem) calc(0.8 * 12rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__left {
       min-height: calc(0.7 * 86rem);
       max-height: calc(0.7 * 112rem);
@@ -541,7 +546,7 @@ body {
       min-height: calc(0.8 * 86rem);
       max-height: calc(0.8 * 112rem);
       padding-bottom: calc(0.8 * 12rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right {
       width: calc(0.7 * 72rem);
       min-height: calc(0.7 * 86rem);
@@ -577,7 +582,7 @@ body {
       gap: calc(0.8 * 1.6rem);
       margin-top: calc(0.8 * 4rem);
       margin-bottom: calc(0.8 * 8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__left__description__ul {
       gap: calc(0.7 * 1.6rem);
       margin-top: calc(0.7 * 4rem);
@@ -623,7 +628,7 @@ body {
       margin-right: calc(0.8 * 0.8rem);
       width: calc(0.8 * 2.4rem);
       height: calc(0.8 * 2.4rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__left__description__ul__li::before {
       font-size: calc(0.7 * 1.4rem);
       line-height: calc(0.7 * 2.5rem);
@@ -650,7 +655,7 @@ body {
       margin-bottom: calc(0.8 * 12rem);
       padding-top: calc(0.8 * 4.8rem);
       padding-right: calc(0.8 * 4.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__information__close {
       margin-bottom: calc(0.7 * 12rem);
       padding-top: calc(0.7 * 4.8rem);
@@ -674,7 +679,7 @@ body {
     .content__right__information__close__btn {
       width: calc(0.8 * 6.4rem);
       height: calc(0.8 * 6.4rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__information__close__btn {
       width: calc(0.7 * 6.4rem);
       height: calc(0.7 * 6.4rem); } }
@@ -696,7 +701,7 @@ body {
   @media only screen and (max-width: 112.5em) {
     .content__right__contact__person__information {
       gap: calc(0.8 * 2.4rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person__information {
       gap: calc(0.7 * 2.4rem); } }
 
@@ -717,7 +722,7 @@ body {
     .button-close {
       width: calc(0.8 * 2.4rem);
       height: calc(0.8 * 2.4rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .button-close {
       width: calc(0.7 * 2.4rem);
       height: calc(0.7 * 2.4rem); } }
@@ -739,7 +744,7 @@ body {
     .icon-arr-corner-down {
       width: calc(0.8 * 1.6rem);
       height: calc(0.8 * 1.6rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .icon-arr-corner-down {
       width: calc(0.7 * 1.6rem);
       height: calc(0.7 * 1.6rem); } }
@@ -774,7 +779,7 @@ body {
     @media only screen and (max-width: 112.5em) {
       .content__right__information__links__a:last-child {
         margin-top: calc(0.8 * 0.8rem); } }
-    @media only screen and (max-width: 86em) {
+    @media only screen and (max-width: 90em) {
       .content__right__information__links__a:last-child {
         margin-top: calc(0.7 * 0.8rem); } }
   .content__right__information__links__a:hover::after {
@@ -791,7 +796,7 @@ body {
   border-bottom: 0.2rem solid rgba(37, 181, 210, 0);
   filter: blur(0.4rem);
   transition: 0.25s border-bottom ease-out, 0.25s filter ease-out; }
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 63.5em) {
     .content__right__information__links__a::after {
       display: none; } }
 
@@ -812,7 +817,7 @@ body {
       gap: calc(0.8 * 4.8rem);
       padding-left: calc(0.8 * 12rem);
       padding-right: calc(0.8 * 12rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact {
       gap: calc(0.7 * 4.8rem);
       padding-left: calc(0.7 * 12rem);
@@ -841,7 +846,7 @@ body {
     .content__right__information__top {
       gap: calc(0.8 * 4.8rem);
       padding: calc(0.8 * 12rem) calc(0.8 * 12rem) 0 calc(0.8 * 12rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__information__top {
       gap: calc(0.7 * 4.8rem);
       padding: calc(0.7 * 12rem) calc(0.7 * 12rem) 0 calc(0.7 * 12rem); } }
@@ -864,12 +869,16 @@ body {
   color: #868579; }
 
 .content__right__contact__person__image--kasiac {
-  background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136ab390d47212619d1e_contact_kasia_c.png");
   background-color: #25b5d2;
-  background-size: cover;
   border-radius: 100%;
   width: calc(1.2 * 12rem);
-  height: calc(1.2 * 12rem); }
+  height: calc(1.2 * 12rem);
+  overflow: hidden; }
+  .content__right__contact__person__image--kasiac > .kasia-img {
+    background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/6393136ab390d47212619d1e_contact_kasia_c.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%; }
   @media only screen and (max-width: 140em) {
     .content__right__contact__person__image--kasiac {
       width: 12rem;
@@ -878,7 +887,7 @@ body {
     .content__right__contact__person__image--kasiac {
       width: calc(0.8 * 12rem);
       height: calc(0.8 * 12rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person__image--kasiac {
       width: 6.4rem;
       height: 6.4rem; } }
@@ -897,7 +906,7 @@ body {
   @media only screen and (max-width: 112.5em) {
     .content__right__contact__person__information__contact {
       gap: calc(0.8 * 1rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person__information__contact {
       gap: calc(0.7 * 1rem); } }
 
@@ -911,7 +920,7 @@ body {
   @media only screen and (max-width: 112.5em) {
     .content__right__contact__person__information__contact {
       gap: calc(0.8 * 0.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person__information__contact {
       gap: calc(0.7 * 0.8rem); } }
 
@@ -924,7 +933,7 @@ body {
   @media only screen and (max-width: 112.5em) {
     .content__right__contact__person {
       gap: calc(0.8 * 4.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person {
       gap: calc(0.7 * 4.8rem); } }
 
@@ -938,7 +947,7 @@ body {
   @media only screen and (max-width: 112.5em) {
     .content__right__contact__person__information__data {
       gap: calc(0.8 * 0.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person__information__data {
       gap: calc(0.7 * 0.8rem); } }
 
@@ -971,7 +980,7 @@ body {
       width: calc(0.8 * 3.2rem);
       height: calc(0.8 * 3.2rem);
       margin-right: calc(0.8 * 1.6rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__right__contact__person__information__contact__email__i {
       background-size: auto calc(0.7 * 1.6rem);
       width: calc(0.7 * 3.2rem);
@@ -1024,7 +1033,7 @@ ol {
   background-color: white;
   z-index: 10;
   display: none;
-  animation: ease-in; }
+  opacity: 0; }
 
 .mask.visible {
   display: block; }
@@ -1040,15 +1049,15 @@ ol {
   @media only screen and (max-width: 112.5em) {
     .navigation {
       padding: calc(0.8 * 4.8rem) calc(0.8 * 4.8rem) 0 calc(0.8 * 4.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .navigation {
-      padding: calc(0.7 * 4.8rem) calc(0.7 * 4.8rem) 0 calc(0.7 * 4.8rem); } }
+      padding: 3.6rem 3.6rem 0 3.6rem; } }
   @media only screen and (max-width: 63.5em) {
     .navigation {
-      padding: 3.6rem 0 0 3.6rem; } }
+      padding: 3.6rem 3.6rem 0 3.6rem; } }
   @media only screen and (max-width: 40em) {
     .navigation {
-      padding: 2.4rem 0 0 2.4rem; } }
+      padding: 2.4rem 2.4rem 0 2.4rem; } }
 
 .navigation__logo--a {
   display: flex;
@@ -1059,7 +1068,7 @@ ol {
   @media only screen and (max-width: 112.5em) {
     .navigation__logo--a {
       height: calc(0.8 * 6.4rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .navigation__logo--a {
       height: calc(0.7 * 6.4rem); } }
 
@@ -1098,7 +1107,7 @@ ol {
       min-height: calc(0.8 * 86rem);
       max-height: calc(0.8 * 112rem);
       padding: calc(0.8 * 12rem) 0 calc(0.8 * 12rem) calc(0.8 * 12rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__text {
       min-height: calc(0.7 * 86rem);
       max-height: calc(0.7 * 112rem);
@@ -1107,7 +1116,7 @@ ol {
     .content__text {
       min-height: calc(0.7 * 86rem);
       max-height: calc(0.7 * 112rem);
-      padding: 4.8rem 0 4.8rem 4.8rem; } }
+      padding: 4.8rem 0 calc(0.7 * 12rem) 4.8rem; } }
   @media only screen and (max-width: 63.5em) {
     .content__text {
       height: auto;
@@ -1140,7 +1149,7 @@ ol {
     .content__images {
       max-height: calc(0.8 * 112rem);
       padding: 0 0 calc(0.8 * 12rem) 0; } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__images {
       max-height: calc(0.7 * 112rem);
       padding: 0 0 calc(0.7 * 12rem) 0; } }
@@ -1162,7 +1171,7 @@ ol {
   @media only screen and (max-width: 112.5em) {
     .content__text__description {
       gap: calc(0.8* 7.2rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__text__description {
       gap: calc(0.7* 7.2rem); } }
   @media only screen and (max-width: 63.5em) {
@@ -1180,7 +1189,7 @@ ol {
   @media only screen and (max-width: 112.5em) {
     .content__text__slogan {
       width: calc(0.8 * 82rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__text__slogan {
       width: calc(0.7 * 82rem); } }
   @media only screen and (max-width: 63.5em) {
@@ -1200,7 +1209,7 @@ ol {
   @media only screen and (max-width: 112.5em) {
     .content__text__description__p {
       width: calc(0.8 * 76rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__text__description__p {
       width: calc(0.7 * 76rem); } }
   @media only screen and (max-width: 63.5em) {
@@ -1216,37 +1225,46 @@ ol {
   display: flex;
   flex-wrap: wrap;
   gap: 1.6rem; }
+  @media only screen and (max-width: 30em) {
+    .content__text__description__buttons {
+      flex-direction: column;
+      align-items: flex-start; } }
 
 .content__text__description__button {
   text-transform: capitalize;
   display: inline-flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: calc(1.2 * 1.8rem);
   width: auto;
   height: calc(1.2 * 5.8rem);
   padding: calc(1.2 * 1.6rem) calc(1.2 * 4rem);
   border-radius: calc(1.2 * 0.8rem); }
   @media only screen and (max-width: 140em) {
     .content__text__description__button {
+      gap: 1.8rem;
       border-radius: 0.8rem;
       height: 5.8rem;
       padding: 1.6rem 4rem; } }
   @media only screen and (max-width: 112.5em) {
     .content__text__description__button {
       height: calc(0.8 * 5.8rem);
+      gap: calc(0.8 * 1.8rem);
       padding: calc(0.8 * 1.6rem) calc(0.8 * 4rem);
       border-radius: calc(0.8 * 0.8rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .content__text__description__button {
       height: calc(0.7 * 5.8rem);
+      gap: calc(0.7 * 1.8rem);
       padding: calc(0.7 * 1.6rem) calc(0.7 * 4rem);
       border-radius: calc(0.7 * 0.8rem); } }
   @media only screen and (max-width: 63.5em) {
     .content__text__description__button {
+      gap: 1.4rem;
       height: 4.8rem;
       padding: 0 2.4rem; } }
   @media only screen and (max-width: 40em) {
     .content__text__description__button {
+      gap: 1.4rem;
       height: 4.8rem;
       padding: 0 2.4rem; } }
 
@@ -1305,31 +1323,31 @@ ol {
       aspect-ratio: 6 / 7;
       grid-template-columns: repeat(6, 1fr);
       grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2" "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... ....... pers-mm pers-mm pers-mm ......." "....... ....... pers-mm pers-mm pers-mm ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm" "l-tur-1 ....... ....... ....... pers-tm pers-tm" "....... ....... d-blu-1 pers-sr ....... ......."; } }
-  @media only screen and (max-width: 112.5em) and (min-width: 86em) {
+  @media only screen and (max-width: 112.5em) and (min-width: 90em) {
     .content__images__grid {
       display: grid;
       aspect-ratio: 8 / 7;
       grid-template-columns: repeat(8, 1fr);
       grid-template-areas: "d-yel-1 ....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "l-yel-1 ....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... ....... pers-mm pers-mm pers-mm ....... ......." "....... ....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "....... l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
-  @media only screen and (max-width: 105em) and (min-width: 86em) {
+  @media only screen and (max-width: 105em) and (min-width: 90em) {
     .content__images__grid {
       display: grid;
       aspect-ratio: 7 / 7;
       grid-template-columns: repeat(7, 1fr);
       grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2 ......." "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc ......." "....... ....... pers-mm pers-mm pers-mm ....... c-tur-1" "....... ....... pers-mm pers-mm pers-mm ....... ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm ......." "l-tur-1 ....... ....... ....... pers-tm pers-tm d-gre-2" "....... ....... d-blu-1 pers-sr ....... ....... c-gre-2"; } }
-  @media only screen and (max-width: 98em) and (min-width: 86em) {
+  @media only screen and (max-width: 98em) and (min-width: 90em) {
     .content__images__grid {
       display: grid;
       aspect-ratio: 6 / 7;
       grid-template-columns: repeat(6, 1fr);
       grid-template-areas: "....... d-ora-1 ....... ....... c-blu-2 d-blu-2" "....... c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... ....... pers-mm pers-mm pers-mm ......." "....... ....... pers-mm pers-mm pers-mm ......." "....... d-tur-1 pers-ks ....... pers-tm pers-tm" "l-tur-1 ....... ....... ....... pers-tm pers-tm" "....... ....... d-blu-1 pers-sr ....... ......."; } }
-  @media only screen and (max-width: 91em) and (min-width: 86em) {
+  @media only screen and (max-width: 91em) and (min-width: 90em) {
     .content__images__grid {
       display: grid;
       aspect-ratio: 5 / 7;
       grid-template-columns: repeat(5, 1fr);
       grid-template-areas: "d-ora-1 ....... ....... c-blu-2 d-blu-2" "c-ora-1 pers-mm pers-mm pers-mm pers-kc" "....... pers-mm pers-mm pers-mm ......." "....... pers-mm pers-mm pers-mm ......." "....... pers-ks ....... pers-tm pers-tm" "d-tur-1 ....... ....... pers-tm pers-tm" "....... d-blu-1 pers-sr ....... ......."; } }
-  @media only screen and (max-width: 86em) and (min-width: 63.5em) {
+  @media only screen and (max-width: 90em) and (min-width: 63.5em) {
     .content__images__grid {
       display: grid;
       aspect-ratio: 7 / 7;
@@ -1503,139 +1521,49 @@ ol {
   @media only screen and (max-width: 40em) and (min-width: 0) and (max-height: 33em) {
     .content__images__grid {
       display: none; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 999em) {
+  @media only screen and (max-width: 28em) and (min-width: 0) and (max-height: 999em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 6;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      grid-template-areas: "l-yel-2 ....... l-gre-2 d-gre-2 ....... ......." "d-yel-2 ....... ....... ....... ....... l-yel-1" "....... d-tur-1 ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-2" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 57em) {
+      display: flex;
+      height: 0;
+      aspect-ratio: unset;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      overflow: visible;
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659872f312bd1d2b760_grid-5.png");
+      padding-top: calc(5 / 12 * 100%); } }
+  @media only screen and (max-width: 28em) and (min-width: 0) and (max-height: 43.25em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 5;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      grid-template-areas: "l-tur-1 ....... l-gre-2 d-gre-2 ....... l-yel-1" "d-tur-2 ....... ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 52em) {
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c76589b46bc2452f4fe87_grid-4.png");
+      padding-top: calc(4 / 12 * 100%); } }
+  @media only screen and (max-width: 28em) and (min-width: 0) and (max-height: 40.75em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 4;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-areas: "....... l-tur-2 ....... d-yel-1 ....... ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 47em) {
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7658d36618e06c56ed35_grid-3.png");
+      padding-top: calc(3 / 12 * 100%); } }
+  @media only screen and (max-width: 28em) and (min-width: 0) and (max-height: 38.25em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 3;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      grid-template-areas: "c-gre-1 ....... ....... c-ora-1 l-ora-1 ......." "....... ....... d-yel-1 ....... ....... d-tur-1" "c-blu-1 ....... ....... c-yel-1 ....... c-tur-1"; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 42em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 2;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-2 ......."; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 37em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 1;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-blu-1"; } }
-  @media only screen and (max-width: 30em) and (min-width: 0) and (max-height: 32em) {
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659bf582d56750d99c4_grid-2.png");
+      padding-top: calc(2 / 12 * 100%); } }
+  @media only screen and (max-width: 28em) and (min-width: 0) and (max-height: 36em) {
     .content__images__grid {
       display: none; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 999em) {
+  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 999em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 6;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      grid-template-areas: "l-yel-2 ....... l-gre-2 d-gre-2 ....... ......." "d-yel-2 ....... ....... ....... ....... l-yel-1" "....... d-tur-1 ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-2" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 56em) {
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659872f312bd1d2b760_grid-5.png");
+      padding-top: calc(5 / 12 * 100%); } }
+  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 45.5em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 5;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      grid-template-areas: "l-tur-1 ....... l-gre-2 d-gre-2 ....... l-yel-1" "d-tur-2 ....... ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 52em) {
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c76589b46bc2452f4fe87_grid-4.png");
+      padding-top: calc(4 / 12 * 100%); } }
+  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 43.25em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 4;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-areas: "....... l-tur-2 ....... d-yel-1 ....... ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 48em) {
+      padding-top: calc(3 / 12 * 100%);
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7658d36618e06c56ed35_grid-3.png"); } }
+  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 41.25em) {
     .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 3;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      grid-template-areas: "c-gre-1 ....... ....... c-ora-1 l-ora-1 ......." "....... ....... d-yel-1 ....... ....... d-tur-1" "c-blu-1 ....... ....... c-yel-1 ....... c-tur-1"; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 44em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 2;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-2 ......."; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 39.1em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 1;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-blu-1"; } }
-  @media only screen and (max-width: 24em) and (min-width: 0) and (max-height: 36em) {
-    .content__images__grid {
-      display: none; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 999em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 6;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      grid-template-areas: "l-yel-2 ....... l-gre-2 d-gre-2 ....... ......." "d-yel-2 ....... ....... ....... ....... l-yel-1" "....... d-tur-1 ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-2" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 59em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 5;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      grid-template-areas: "l-tur-1 ....... l-gre-2 d-gre-2 ....... l-yel-1" "d-tur-2 ....... ....... ....... d-yel-1 ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 55em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 4;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-areas: "....... l-tur-2 ....... d-yel-1 ....... ......." "c-tur-1 pers-ks ....... pers-mm pers-mm d-tur-1" "pers-sr ....... d-gre-1 pers-mm pers-mm pers-kc" "d-blu-1 pers-tm c-gre-1 ....... c-ora-1 ......."; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 51em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 3;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      grid-template-areas: "c-gre-1 ....... ....... c-ora-1 l-ora-1 ......." "....... ....... d-yel-1 ....... ....... d-tur-1" "c-blu-1 ....... ....... c-yel-1 ....... c-tur-1"; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 47em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 2;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: "....... c-tur-1 ....... c-ora-1 ....... c-yel-1" "c-gre-1 ....... ....... ....... c-blu-2 ......."; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 43em) {
-    .content__images__grid {
-      display: grid;
-      aspect-ratio: 6 / 1;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "c-ora-1 ....... c-yel-1 ....... c-tur-1 c-blu-1"; } }
-  @media only screen and (max-width: 22.75em) and (min-width: 0) and (max-height: 39em) {
+      padding-top: calc(2 / 12 * 100%);
+      background-image: url("https://uploads-ssl.webflow.com/638dc744dd44dec956cb66d9/639c7659bf582d56750d99c4_grid-2.png"); } }
+  @media only screen and (max-width: 24.375em) and (min-width: 0) and (max-height: 39.15em) {
     .content__images__grid {
       display: none; } }
 
@@ -1685,7 +1613,7 @@ ol {
     .icon-arr-corner-up {
       width: calc(0.8 * 1.6rem);
       height: calc(0.8 * 1.6rem); } }
-  @media only screen and (max-width: 86em) {
+  @media only screen and (max-width: 90em) {
     .icon-arr-corner-up {
       width: calc(0.7 * 1.6rem);
       height: calc(0.7 * 1.6rem); } }
@@ -1709,3 +1637,6 @@ ol {
 
 .get-estimate {
   opacity: 0; }
+
+.mask {
+  transition: opacity 0.5; }
